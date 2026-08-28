@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightStar Business</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            color: #222;
+        }
+
+        header {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #162d6b;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 70px 20px;
+            background-color: #dbeafe;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            color: #1e3a8a;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #1e3a8a;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            width: 250px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px #ccc;
+        }
+
+        .card h3 {
+            color: #1e3a8a;
+        }
+
+        form {
+            max-width: 500px;
+            margin: auto;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #1e3a8a;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #162d6b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>BrightStar Business</h1>
+        <p>Your trusted business partner</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1>Welcome to BrightStar</h1>
+        <p>We provide quality products and services to meet your needs.</p>
+        <a href="#services" class="button">Our Services</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            BrightStar Business is a company focused on providing
+            reliable, affordable and high-quality services to our customers.
+            Our goal is to make every customer satisfied.
+        </p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+
+        <div class="services">
+
+            <div class="card">
+                <h3>Web Design</h3>
+                <p>We create simple and attractive websites for businesses.</p>
+            </div>
+
+            <div class="card">
+                <h3>Marketing</h3>
+                <p>We help businesses promote their products and services.</p>
+            </div>
+
+            <div class="card">
+                <h3>Customer Support</h3>
+                <p>We provide helpful and friendly support to our customers.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 BrightStar Business. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
